@@ -6,7 +6,9 @@
   "scripts": {
     "start": "nodemon server.js --stdio",
     "compile": "tsc --watch",
-    "init-typescript": "tsc --init"
+    "init-typescript": "tsc --init",
+    "publish": "npm publish",
+    "unpublish": "npm unpublish"
   },
   "bin": {
     "webmacro-language-server": "index.js"
