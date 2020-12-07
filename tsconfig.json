@@ -1,13 +1,13 @@
 {
   "compilerOptions": {
     "target": "es5",
-    "module": "commonjs",
     "strict": false,
     "sourceMap": true,
     "outDir": "./build",
-    "sourceRoot": "./src",
+    "sourceRoot": "./src/server.ts",
     "esModuleInterop": true,
     "skipLibCheck": true,
+    "removeComments": true,
     "forceConsistentCasingInFileNames": true
   },
   "include": ["src"],

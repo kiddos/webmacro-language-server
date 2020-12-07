@@ -1,12 +1,16 @@
 {
   "name": "webmacro-language-server",
-  "version": "1.0.0",
-  "main": "server.js",
+  "version": "1.0.1",
+  "description": "webmacro language server",
+  "main": "build/server.js",
+  "keywords": ["lsp"],
+  "author": "kiddos",
   "license": "MIT",
   "scripts": {
-    "start": "nodemon server.js --stdio",
     "compile": "tsc --watch",
     "init-typescript": "tsc --init",
+    "build": "tsc",
+    "prepare": "tsc",
     "publish": "npm publish",
     "unpublish": "npm unpublish"
   },
