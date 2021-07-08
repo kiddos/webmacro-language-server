@@ -49,9 +49,9 @@ async function validateTextDocument(textDocument: TextDocument): Promise<void> {
     parsers.set(textDocument.uri, new WebmacroParser());
   }
   parsers.get(textDocument.uri).parse(text);
-  let diagnostics = parsers.get(textDocument.uri).findDiagnostics(text, textDocument);
+  // let diagnostics = parsers.get(textDocument.uri).findDiagnostics(text, textDocument);
 
-  connection.sendDiagnostics({ uri: textDocument.uri, diagnostics });
+  // connection.sendDiagnostics({ uri: textDocument.uri, diagnostics });
 }
 
 // This handler provides the initial list of the completion items.
