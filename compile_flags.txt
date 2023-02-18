@@ -1,0 +1,7 @@
+-Inode_modules/nan
+-I/usr/include/node
+-I/usr/include/c++/9
+-Isrc
+-xc++
+-std=c++11
+
